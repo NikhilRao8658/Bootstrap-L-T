@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="overflow-x: hidden;">
+  <div>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">John Deere</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <span style="margin-left: 720px;">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tractor Dealer</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Explore
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Tractors</a></li>
+                  <li><a class="dropdown-item" href="#">Harvesters</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Large Machines</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </span>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <hr>
+  <div class="px-1">
+    <button type="button" class="btn btn-outline-success">Home</button>
+    <button type="button" class="btn btn-outline-success">Products</button>
+    <button type="button" class="btn btn-outline-success">Finance</button>
+    <button type="button" class="btn btn-outline-success">Parts & Service</button>
+  </div>
+  <hr>
+  <div style="margin-left: 200px;" class="d-flex gap-3">
+    <img
+      src="https://www.deere.co.in/assets/images/region-2/our-company/news/press-releases/2024/johndeereindia-tractor.jpg"
+      class="img-thumbnail" alt="">
+    <img src="https://www.deere.co.in/assets/images/region-1/products/anubhutii-app.jpg" class="img-thumbnail" alt="">
+    <img src="https://www.deere.co.in/assets/images/region-1/precision-ag-technology/180AutoTrac_JohnDeereIndia.jpg"
+      class="img-thumbnail" alt="">
+    <img src="https://www.deere.co.in/assets/images/region-1/homepage/in-implements-200x113.jpg" class="img-thumbnail"
+      alt="">
+    <img src="https://www.deere.co.in/assets/images/region-1/homepage/JDF-Vertcal-logo-200x113pixel.jpg"
+      class="img-thumbnail" alt="">
+  </div>
+  <br>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel"
+    style="width: 1400px; height: 1100px; margin: auto;">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.deere.co.in/assets/images/region-1/homepage/john-deere-anokhi-udaan-campaign-en.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.deere.co.in/assets/images/region-1/homepage/india-homepage-superhero.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.deere.co.in/assets/images/region-1/parts-and-service/image.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.deere.co.in/assets/images/region-1/homepage/5310-new-look.jpg" class="d-block w-100"
+          alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <br><br>
+    <img src="https://www.deere.co.in/assets/images/region-1/multi-languages-banner-en.jpg" alt=""
+      style="height: 746px; width: 1246px; margin-left: 124px;">
+  </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <!-- carosouel tab  -->
+  <div class="row gap-4" style="margin-left: 330px;">
+    <div class="card" style="width: 18rem;">
+      <img src="https://www.deere.co.in/assets/images/region-1/homepage/anubhuti-app-en.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://www.deere.co.in/assets/images/region-1/homepage/jeenu-and-deepak-en.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="https://www.deere.co.in/assets/images/region-1/homepage/tractor-and-tarun-en.jpg" class="card-img-top"
+        alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+          content.</p>
+      </div>
+    </div>
+  </div><br>
+  <div>
+    <img src="https://www.deere.co.in/assets/images/region-1/homepage/virtual-dealership-hero.png" alt=""
+      style="margin-left: 82px;">
+  </div>
+  <br>
+  <div><br>
+    <!-- 2 Images div  -->
+    <div class="row" style="margin-left: 200px;">
+      <img src="https://www.deere.co.in/assets/images/region-1/homepage/TCINEW.jpg" alt="" style="width: 550px;">
+      <img src="https://www.deere.co.in/assets/images/region-1/our-company/careers/winning-edge/1366-x-768.png" alt=""
+        style="width: 550px;">
+    </div>
+  </div><br>
+  <h5 style="margin-left: 80px;">Toll Free Number: <a href="">18002095310</a></h5>
+  <br><br><br><br><br>
+  <!-- Blogs Div -->
+  <h3 style="margin-left: 80px;">Blogs</h3>
+
+  <div style="width: 1400px; height: 500px; margin-left: 60px;">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+        
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/john-deere-india-finance-blog-9.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Empowering Indian Farmers: Expert Tips on Securing Tractor Financing</h5>
+            <p class="card-text">As agriculture remains the backbone of India's economy, securing the right
+              financing to invest in farming equipment’s plays a crucial role in the success of farmers across the
+              country.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/john-deere-implement-blog-banner.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Planting Equipment: Sowing the Seeds of Agricultural Innovation</h5>
+            <p class="card-text">John Deere India is a pioneer in tractor innovation. It offers a comprehensive
+              range of planting equipment tailored to meet the diverse needs of modern farmers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/anubhuti-banner.jpg" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Convenient & Effective Management of Your John Deere Tractor Using Anubhuti App
+            </h5>
+            <p class="card-text">The Anubhuti App is a prime example of how technology is advancing agriculture,
+              offering many features and benefits tailored specifically for the modern farmer and agricultural
+              professional.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/john-deere-5405-tractor-blog.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Why Buy a John Deere 5405 Tractor: Mileage, Features & Specs!</h5>
+            <p class="card-text"> tractor stands out in the competitive world of agricultural machinery, offering
+              power, efficiency, and versatility that farmers need to get the job done right.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/blog-10.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Why Buy a John Deere 5405 Tractor: Mileage, Features & Specs!</h5>
+            <p class="card-text"> tractor stands out in the competitive world of agricultural machinery, offering
+              power, efficiency, and versatility that farmers need to get the job done right.
+            </p>
+          </div>
+        </div>
+      </div>
+        </div>
+        <div class="carousel-item">
+        
+    <div class="row row-cols-1 row-cols-md-5 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/john-deere-india-finance-blog-9.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Empowering Indian Farmers: Expert Tips on Securing Tractor Financing</h5>
+            <p class="card-text">As agriculture remains the backbone of India's economy, securing the right
+              financing to invest in farming equipment’s plays a crucial role in the success of farmers across the
+              country.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/john-deere-implement-blog-banner.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Planting Equipment: Sowing the Seeds of Agricultural Innovation</h5>
+            <p class="card-text">John Deere India is a pioneer in tractor innovation. It offers a comprehensive
+              range of planting equipment tailored to meet the diverse needs of modern farmers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/anubhuti-banner.jpg" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Convenient & Effective Management of Your John Deere Tractor Using Anubhuti App
+            </h5>
+            <p class="card-text">The Anubhuti App is a prime example of how technology is advancing agriculture,
+              offering many features and benefits tailored specifically for the modern farmer and agricultural
+              professional.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/john-deere-5405-tractor-blog.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Why Buy a John Deere 5405 Tractor: Mileage, Features & Specs!</h5>
+            <p class="card-text"> tractor stands out in the competitive world of agricultural machinery, offering
+              power, efficiency, and versatility that farmers need to get the job done right.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/blog-10.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Why Buy a John Deere 5405 Tractor: Mileage, Features & Specs!</h5>
+            <p class="card-text"> tractor stands out in the competitive world of agricultural machinery, offering
+              power, efficiency, and versatility that farmers need to get the job done right.
+            </p>
+          </div>
+        </div>
+      </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+    <br><br>  
+
+   
+
+    <!-- Footer -->
+    <footer class="bg-dark  text-light pt-4" style="overflow-x: hidden;">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Products & Support -->
+          <div class="col-md-3 mb-3">
+            <h5 class="text-uppercase">Products & Support</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">Tractors</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Contact a Dealer</a></li>
+              <li><a href="#" class="text-light text-decoration-none">John Deere Financial</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Voice of Customer</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Order Parts</a></li>
+            </ul>
+          </div>
+
+          <!-- Events & Announcements -->
+          <div class="col-md-3 mb-3">
+            <h5 class="text-uppercase">Events & Announcements</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">Latest Events</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Announcements</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Company News</a></li>
+            </ul>
+          </div>
+
+          <!-- Company Information -->
+          <div class="col-md-3 mb-3">
+            <h5 class="text-uppercase">Company Information</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">About Our Company</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Sustainability</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Careers</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Governance</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Ethics & Compliance</a></li>
+            </ul>
+          </div>
+
+          <!-- Publications & Power Connect -->
+          <div class="col-md-3 mb-3">
+            <h5 class="text-uppercase">Publications</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">Annual Reports</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Investor Relations</a></li>
+              <li><a href="#" class="text-light text-decoration-none">Power Connect</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text-center py-3 border-top border-secondary">
+          <p class="mb-0">&copy; 2024 John Deere. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- cardss -->
+
+    <!-- <div class="row row-cols-1 row-cols-md-5 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/john-deere-india-finance-blog-9.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Empowering Indian Farmers: Expert Tips on Securing Tractor Financing</h5>
+            <p class="card-text">As agriculture remains the backbone of India's economy, securing the right
+              financing to invest in farming equipment’s plays a crucial role in the success of farmers across the
+              country.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/john-deere-implement-blog-banner.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Planting Equipment: Sowing the Seeds of Agricultural Innovation</h5>
+            <p class="card-text">John Deere India is a pioneer in tractor innovation. It offers a comprehensive
+              range of planting equipment tailored to meet the diverse needs of modern farmers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/anubhuti-banner.jpg" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Convenient & Effective Management of Your John Deere Tractor Using Anubhuti App
+            </h5>
+            <p class="card-text">The Anubhuti App is a prime example of how technology is advancing agriculture,
+              offering many features and benefits tailored specifically for the modern farmer and agricultural
+              professional.</p>
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/john-deere-5405-tractor-blog.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Why Buy a John Deere 5405 Tractor: Mileage, Features & Specs!</h5>
+            <p class="card-text"> tractor stands out in the competitive world of agricultural machinery, offering
+              power, efficiency, and versatility that farmers need to get the job done right.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="https://www.deere.co.in/assets/images/region-1/blog/blog-10.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Why Buy a John Deere 5405 Tractor: Mileage, Features & Specs!</h5>
+            <p class="card-text"> tractor stands out in the competitive world of agricultural machinery, offering
+              power, efficiency, and versatility that farmers need to get the job done right.
+            </p>
+          </div>
+        </div>
+      </div> -->
